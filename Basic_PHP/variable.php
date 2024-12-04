@@ -10,14 +10,21 @@ echo "Hafizur Rahman Omar <br />";
 //Think of variables as containers for storing data.
 
 $first_name = "Hafizur Rahman";
-$last_name ="Rahman";
-
+$last_name ="Omar";
+//Concatenation by dote formate
 echo $first_name." ".$last_name."<br />";
-print $first_name." ".$last_name."<br />";
+//Concatenation Easy way
+echo" $first_name $last_name <br />";
+//Concatenation Easy way and Good Practice
+echo " {$first_name} {$last_name} <br />";
+
+
+const PI = 3.14;
+
+echo "PI value is: ".PI."<br/>";
 
 $x = 7;
 $y = 23;
-
 echo $x." ".$y."<br />";
 echo $x+$y."<br />";
 
@@ -101,7 +108,3 @@ function staticTest() {
 $animals = array("Cow","cat","Dog","goat");
 
 print_r($animals);
-
-
-
-?>

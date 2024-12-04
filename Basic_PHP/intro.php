@@ -1,4 +1,4 @@
-<?php 
+<?php
 // This is a single-line comment
 
 # This is also a single-line comment
@@ -17,47 +17,55 @@
 
 #What is a PHP File?
 
- /*
+/*
 
 1.PHP files can contain text, HTML, CSS, JavaScript, and PHP code
 2.PHP code is executed on the server, and the result is returned to the browser as plain HTML
 3.PHP files have extension ".php"
 
- */
+*/
 
- //Basic PHP Syntax
+echo "Alhamdulillah";
 
- /*
-
- <?php
-
- PHP code goes here
-
-?>
- */
-
-echo "Alhamdulillah <br/>";
+echo "\n";
 
 // PHP Case Sensitivity
 
-// In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are not case-sensitive.
+/*In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-definedfunctions are
+not case-sensitive.*/
 
-ECHO "Alhamdulillah <br/>";
-EcHo "Alhamdulillah <br/>";
 
-//Note: But; all variable names are case-sensitive!
+
+
+echo "Alhamdulillah";
+echo "\n";
+echo "Alhamdulillah";
+echo "\n";
+# Note: But; all variable names are case-sensitive!
 
 $color = "red";
-echo "My car is " . $color . "<br>";
-//echo "My house is " . $COLOR . "<br>";
-?>
+echo "My car is " . $color;
+echo "\n";
+echo "My Cat color $color ";
+echo "\n";
 
-<h1><?php echo "Alhamdulillah";?></h1>
+$item = "MackBook";
+$quantity = 3;
+$price = 280000;
+$totalPrice = $quantity * $price;
+echo "I have a $item price $price";
+echo "\n";
+echo "I have $quantity {$item}'s , Total Price $totalPrice ";
+echo "\n";
+//Good Practice
+echo"I have {$quantity} {$item}'s , Total Price {$totalPrice} ";
 
-
-<!-- PHP echo and print Statements
+/*
+PHP echo and print Statements
 echo and print are more or less the same. They are both used to output data to the screen.
 
-The differences are small: echo has no return value while print has a return value of 1 so it can be used in expressions. echo can take multiple parameters (although such usage is rare) while print can take one argument. echo is marginally faster than print.
+The differences are small: echo has no return value while print has a return value of 1 so it can be used in
+expressions. echo can take multiple parameters (although such usage is rare) while print can take one argument. echo is
+marginally faster than print.
 
- -->
+*/
