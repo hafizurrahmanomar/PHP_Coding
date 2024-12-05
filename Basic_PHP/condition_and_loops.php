@@ -1,4 +1,3 @@
-
 <?php
 
 /*PHP Conditional Statements*/
@@ -27,7 +26,7 @@ elseif($age<40){
 
 }
 
-elseif($age<20){
+else if($age<20){
     echo "Boy";
 
 }
@@ -111,5 +110,3 @@ foreach($person as $key => $value){
 
     print "Name: $key Age: $value <br/>";
 }
-
-?>

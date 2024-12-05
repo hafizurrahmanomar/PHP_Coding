@@ -1,0 +1,53 @@
+1.PHP environment Details
+    - https://php.org/php-development-environment/
+
+# Install PHP
+    - https://windows.php.net/download/
+
+# Install a Database
+    - https://www.mysql.com/downloads/
+    - https://mariadb.org/download/
+
+# Download and Install XAMPP
+    - https://www.apachefriends.org/index.html
+
+
+# Test your Setup
+    - phpinfo();
+
+
+
+2.Prepare VS Code for php
+    - PHP Intelephense
+    - PHP Server
+    - PHP Debug
+    - PHP IntelliSense
+    - MySQL by Weijan Chan
+    - Auto Rename Tag
+
+
+3.PHP printf()
+    -String formatting
+    - Output show
+    #sprintf()
+        - String formatting
+        - No Output show at first off all variable storage than echo
+    # Possible format values:
+
+    %% - Returns a percent sign
+    %b - Binary number
+    %c - The character according to the ASCII value
+    %d - Signed decimal number (negative, zero or positive)
+    %e - Scientific notation using a lowercase (e.g. 1.2e+2)
+    %E - Scientific notation using a uppercase (e.g. 1.2E+2)
+    %u - Unsigned decimal number (equal to or greater than zero)
+    %f - Floating-point number (local settings aware)
+    %F - Floating-point number (not local settings aware)
+    %g - shorter of %e and %f
+    %G - shorter of %E and %f
+    %o - Octal number
+    %s - String
+    %x - Hexadecimal number (lowercase letters)
+    %X - Hexadecimal number (uppercase letters)
+   - Additional format values. These are placed between the % and the letter (example %.2f):
+

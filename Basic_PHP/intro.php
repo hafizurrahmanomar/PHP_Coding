@@ -24,7 +24,9 @@
 3.PHP files have extension ".php"
 
 */
-
+// phpinfo();
+// echo phpversion();
+echo "\n";
 echo "Alhamdulillah";
 
 echo "\n";
