@@ -1,0 +1,9 @@
+
+Quick write using file_put_contents.
+This is appended data.
+This is appended new data.
+This is another appended line.
+Line 1: This is a new entry.
+Line 2: Appending more data.
+Line 3: End of appended data.
+Appending only if the file exists.
