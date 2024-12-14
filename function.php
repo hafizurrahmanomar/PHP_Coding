@@ -20,7 +20,7 @@ fullName("Hafizur","Rahman");
 // function with default argument value
 
 function myName($myName="Hafizur Rahman Omar"){
-    print "Hello mr.".$myName."<br/>";
+    print "Hello Mr.".$myName."<br/>";
 
 }
 
@@ -77,5 +77,20 @@ print calculator("add" ,10,7)."<br/>";
 print calculator("sub" ,5,7)."<br/>";
 print calculator("mul" ,5,7)."<br/>";
 print calculator("div" ,5,7)."<br/>";
+
+
+function printStar($starPrint){
+    for($i=0;$i<=$starPrint;$i++){
+        echo "*";
+    }
+    echo "<br/>";
+}
+
+printStar(120);
+printStar(60);
+printStar(120);
+
+
+
 
 ?>
