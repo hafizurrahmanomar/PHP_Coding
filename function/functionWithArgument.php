@@ -1,11 +1,6 @@
 <?php
 
-// Function with no returns
- function message(){
 
-    print "Function with no returns <br/>";
- }
-message();
 
 // function with arguments
 
@@ -89,8 +84,3 @@ function printStar($starPrint){
 printStar(120);
 printStar(60);
 printStar(120);
-
-
-
-
-?>
