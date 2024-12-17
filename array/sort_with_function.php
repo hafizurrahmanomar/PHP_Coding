@@ -9,6 +9,7 @@
 // krsort() - sort associative arrays in descending order, according to the key
 
 $cars = ["Volvo", "BMW", "Toyota"];
+
 sort($cars);
 
 $carLength = count($cars);
@@ -17,7 +18,7 @@ for ($x = 0; $x < $carLength; $x++) {
     echo "<br>";
 }
 // sort() - sort arrays in ascending order
-$numbers = array(4, 6, 2, 22, 11);
+$numbers = [4, 6, 2, 22, 11];
 sort($numbers);
 
 $numLength = count($numbers);
@@ -38,10 +39,11 @@ for ($x = 0; $x < $numLength; $x++) {
 
 // ksort() - sort associative arrays in ascending order, according to the key
 $age = ["Hanif" => "35", "Abul" => "37", "Joy" => "43"];
-ksort($age);
-
+ ksort($age);
+ 
 foreach ($age as $x => $y) {
-    echo "Key=" . $x . ", Value=" . $y;
+    // echo "Name=" . $x . ",age=" . $y;
+    echo "Name = {$x} , Age {$y}";
     echo "<br>";
 }
 

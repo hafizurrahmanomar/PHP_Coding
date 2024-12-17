@@ -22,5 +22,26 @@ print_r($age);
 
 // item delete
 
+foreach($age as $key=>$value){
+    echo "Present $key is $value.<br/>";
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ?>
