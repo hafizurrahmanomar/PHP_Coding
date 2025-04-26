@@ -26,7 +26,7 @@
 */
 // phpinfo();
 // echo phpversion();
-echo "\n";
+
 echo "Alhamdulillah";
 
 echo "\n";
@@ -39,17 +39,12 @@ not case-sensitive.*/
 
 
 
-echo "Alhamdulillah";
-echo "\n";
-echo "Alhamdulillah";
-echo "\n";
 # Note: But; all variable names are case-sensitive!
 
 $color = "red";
 echo "My car is " . $color;
 echo "\n";
-echo "My Cat color $color ";
-echo "\n";
+
 
 $item = "MackBook";
 $quantity = 3;

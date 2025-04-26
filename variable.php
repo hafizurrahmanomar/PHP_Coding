@@ -1,6 +1,7 @@
 <?php
 
-echo "Hafizur Rahman Omar <br />";
+echo "Hafizur Rahman Omar ";
+echo "\n";
 
 //In PHP, a variable starts with the $ sign.
 // A variable name must start with a letter or the underscore character
@@ -12,22 +13,24 @@ echo "Hafizur Rahman Omar <br />";
 $first_name = "Hafizur Rahman";
 $last_name ="Omar";
 //Concatenation by dote formate
-echo $first_name." ".$last_name."<br />";
+echo $first_name." ".$last_name;
+echo "\n";
 //Concatenation Easy way
-echo" $first_name $last_name <br />";
+echo"$first_name $last_name";
+echo "\n";
 //Concatenation Easy way and Good Practice
-echo " {$first_name} {$last_name} <br />";
-
-
+echo "{$first_name} {$last_name} ";
+echo "\n";
 const PI = 3.14;
 
-echo "PI value is: ".PI."<br/>";
-
-$x = 7;
-$y = 23;
-echo $x." ".$y."<br />";
-echo $x+$y."<br />";
-
+echo "PI value is: ".PI;
+echo "\n";
+$x = 17;
+$y = 13;
+echo $x." ".$y;
+echo "\n";
+echo $x+$y;
+echo "\n";
 
 //PHP has three different variable scopes:
 
@@ -44,19 +47,19 @@ echo $x+$y."<br />";
 
     myTest();
     
-    echo "<p>Variable x outside function is: $num</p>";
+    echo "Variable x outside function is: $num";
 
- 
+   echo "\n";
 
     function myTestLocal() {
 
         $num1 = 15;  // local scope
-        echo "<p>Variable x inside function is: $num1</p>";
+        echo "Variable x inside function is: $num1";
       
     }
 
     myTestLocal();
-    
+    echo "\n";
 // using x outside the function will generate an error
 //echo "<p>Variable x outside function is: $num1</p>";
 
@@ -75,10 +78,11 @@ function Test() {
 }
 
 Test();
+echo "\n";
 echo $y; // outputs 25
-
+echo "\n";
 //PHP also stores all global variables in an array called $GLOBALS[index]. The index holds the name of the variable. This array is also accessible from within functions and can be used to update global variables directly.
-$a = 5;
+$a = 15;
 $b = 10;
 
 function globalTest() {
@@ -86,23 +90,7 @@ function globalTest() {
 }
 
 globalTest();
-echo $c; // outputs 15
-
-
-
-#static variable
-
-function staticTest() {
-    static $x = 0;
-    echo $x;
-    $x++;
-  }
-  
-  staticTest();
-  echo "<br>";
-  staticTest();
-  echo "<br>";
-  staticTest();
+echo "\n";
 
 //array print
 $animals = array("Cow","cat","Dog","goat");
