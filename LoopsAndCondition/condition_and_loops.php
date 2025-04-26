@@ -21,7 +21,7 @@ print"<br/>";
         echo "Old person";
 
     }
-elseif($age<40){
+else if($age<40){
    echo "Young";
 
 }

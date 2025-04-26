@@ -12,8 +12,3 @@ function RecursiveCountDown()
 }
 
 RecursiveCountDown();// Call the function to start the countdown.
-
-
-
-
-?>
